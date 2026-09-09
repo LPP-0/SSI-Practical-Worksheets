@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and IDEs
+.venv/
+venv/
+env/
+.env
+.env.*
+.vscode/
+.idea/
+*.iml
+.project
+.pydevproject
+
+# Private keys, certificates, and other sensitive material
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.csr
+key.bin
+
+# Cryptography and lab-generated outputs
+*.enc
+*.dec
+*.mac
+*.ext
+*.ext.mac
+*.attck
+
+# Local databases and generated database storage
+*.db
+*.sqlite
+*.sqlite3
+S10/Labsetup/mysql_data/
+
+# Compiled binaries and build output
+*.o
+*.out
+*.exe
+*.elf
+S3/readfile
+S11/ssi-lab-swsec/vuln
+S11/ssi-lab-swsec/fmtvuln
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
